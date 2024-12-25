@@ -1,0 +1,68 @@
+ul.ry-goods-list {
+    list-style : none;
+    padding : 0;
+    margin : 0;
+}
+
+ul.ry-goods-list li {
+    width : calc(33% - 50px);
+    margin : 0px 30px 0px 0px;
+    float : left;
+}
+
+div.ry-card div.photo {
+    position : relative;
+}
+
+div.ry-card div.photo img {
+    width : 100%;
+}
+
+div.ry-card div.photo div.bedge {
+    position : absolute;
+    top : 0;
+    right : 0;
+    background : black;
+    color : white;
+}
+
+div.ry-card div.goods-title {
+    font-weight : 600;
+    border-bottom : #eeeeee 2px solid;
+    padding : 5px 0px;
+}
+
+div.ry-card div.goods-price {
+    padding : 5px 0px 5px;
+}
+
+div.ry-card div.goods-price span.origin-price {
+    text-decoration: line-through;
+}
+
+div.ry-card div.goods-price span.sale-price {
+    font-weight : 700;
+    color : #ff0000;
+}
+
+div.ry-card div.point {
+    margin : 0px 0px 20px;
+    position : relative;
+}
+
+div.ry-card div.point span{
+    font-size : 12px;
+    border : rgba(69, 67, 67, 0.46) 1px solid;
+    border-radius : 10px;
+    padding : 1px 8px 1px 10px;
+}
+
+div.ry-card div.point div.bedge-c {
+    position : absolute;
+    top : 0;
+    left : 10px;
+    background-color : #fdc80b;
+    color : #eeeeee;
+    border-radius : 300px;
+    font-size : 13px;
+}
